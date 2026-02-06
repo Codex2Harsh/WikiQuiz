@@ -5,6 +5,7 @@ import QuizResults from './components/QuizResults';
 import HistoryTable from './components/HistoryTable';
 import ResultModal from './components/ResultModal';
 
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState('generate'); 
   const [loading, setLoading] = useState(false);
@@ -15,7 +16,7 @@ export default function Dashboard() {
     setLoading(true);
     setCurrentQuiz(null);
     try {
-      const res = await axios.post('http://127.0.0.1:8000/generate', { url });
+      const res = await axios.post(`${API_BASE_URL}/generate`, { url });
       console.log("AI Response Data:", res.data);
       setCurrentQuiz(res.data);
     } catch (error) {
@@ -28,7 +29,7 @@ export default function Dashboard() {
 
   const fetchHistory = async () => {
     try {
-      const res = await axios.get('http://127.0.0.1:8000/history');
+      const res = await axios.get(`${API_BASE_URL}/history`);
       setHistory(res.data);
     } catch (error) {
       console.error("Error fetching history:", error);
