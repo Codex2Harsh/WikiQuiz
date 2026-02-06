@@ -1,0 +1,145 @@
+AI Response Data: 
+Object
+key_entities
+: 
+Organizations
+: 
+Array(7)
+0
+: 
+"OpenAI"
+1
+: 
+"Google DeepMind"
+2
+: 
+"Meta"
+3
+: 
+"Google Search"
+4
+: 
+"YouTube"
+5
+: 
+"Netflix"
+6
+: 
+"Waymo"
+length
+: 
+7
+[[Prototype]]
+: 
+Array(0)
+People
+: 
+Array(2)
+0
+: 
+"Noam Chomsky"
+1
+: 
+"Margaret Masterman"
+length
+: 
+2
+[[Prototype]]
+: 
+Array(0)
+[[Prototype]]
+: 
+Object
+quiz
+: 
+Array(5)
+0
+: 
+{url: 'https://en.wikipedia.org/wiki/Artificial_intelligence', question: 'In what year was Artificial Intelligence formally founded as an academic discipline?', options: Array(4), answer: '1956', difficulty: 'Easy', …}
+1
+: 
+{url: 'https://en.wikipedia.org/wiki/Artificial_intelligence', question: 'What term is used to describe the historical perio… that followed cycles of optimism in AI research?', options: Array(4), answer: 'AI Winters', difficulty: 'Medium', …}
+2
+: 
+{url: 'https://en.wikipedia.org/wiki/Artificial_intelligence', question: 'Which type of machine learning requires labeling t…swers and includes classification and regression?', options: Array(4), answer: 'Supervised learning', difficulty: 'Medium', …}
+3
+: 
+{url: 'https://en.wikipedia.org/wiki/Artificial_intelligence', question: 'Which deep learning architecture, introduced after…the growth of AI, particularly generative models?', options: Array(4), answer: 'Transformer architecture', difficulty: 'Hard', …}
+4
+: 
+{url: 'https://en.wikipedia.org/wiki/Artificial_intelligence', question: 'In the context of knowledge representation, what t…perties used by a particular domain of knowledge?', options: Array(4), answer: 'Ontology', difficulty: 'Hard', …}
+length
+: 
+5
+[[Prototype]]
+: 
+Array(0)
+related_topics
+: 
+Array(3)
+0
+: 
+"Machine learning"
+1
+: 
+"Artificial general intelligence"
+2
+: 
+"Natural language processing"
+length
+: 
+3
+[[Prototype]]
+: 
+Array(0)
+sections
+: 
+Array(11)
+0
+: 
+"Definition and Scope"
+1
+: 
+"High-profile Applications"
+2
+: 
+"History and Growth"
+3
+: 
+"Reasoning and Problem Solving"
+4
+: 
+"Knowledge Representation and Engineering"
+5
+: 
+"Planning and Decision Making (Agents)"
+6
+: 
+"Machine Learning"
+7
+: 
+"Natural Language Processing (NLP)"
+8
+: 
+"Machine Perception and Affective Computing"
+9
+: 
+"Artificial General Intelligence (AGI)"
+10
+: 
+"Techniques (Search and Formal Logic)"
+length
+: 
+11
+[[Prototype]]
+: 
+Array(0)
+summary
+: 
+"Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, and decision-making. It is a field of research focused on developing methods that enable machines to perceive their environment and use intelligence to take actions that maximize their chances of achieving defined goals."
+title
+: 
+"Artificial intelligence (AI)"
+url
+: 
+"https://en.wikipedia.org/wiki/Artificial_intelligence"
