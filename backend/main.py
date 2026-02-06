@@ -14,12 +14,16 @@ models.Base.metadata.create_all(bind=engine)
 # Create the FastAPI application instance
 app = FastAPI()
 
+origins = [
+    "http://localhost:5173",                      
+    "https://wikiquiz-frontend.onrender.com"     
+]
 # Enable Cross-Origin Resource Sharing (CORS)
 # This allows frontend apps (React, Next.js, etc.) running on different domains
 # to communicate with this API without being blocked by the browser.
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
