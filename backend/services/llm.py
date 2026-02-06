@@ -3,9 +3,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from schemas import WikiQuizResponse
 from dotenv import load_dotenv
-
+# Load environment variables from .env file so we can securely store API keys
 load_dotenv()
-
+# Initialize the Google Gemini model
+# temperature=0.7 allows for a balance between creativity and consistency
 llm = ChatGoogleGenerativeAI(
     model="gemini-flash-latest", 
     google_api_key=os.getenv("GOOGLE_API_KEY"),
@@ -14,6 +15,7 @@ llm = ChatGoogleGenerativeAI(
 
 def generate_quiz_content(text: str, url: str) -> WikiQuizResponse:
     
+    # Wrap the LLM so it returns data that matches our predefined schema
     structured_llm = llm.with_structured_output(WikiQuizResponse)
     
     # Prompt
@@ -37,17 +39,23 @@ def generate_quiz_content(text: str, url: str) -> WikiQuizResponse:
     
     Return the result strictly in the requested JSON format.
     """
-    
+     # Create a reusable prompt object that LangChain can work with
     prompt = PromptTemplate(
         input_variables=["text", "url"],
         template=prompt_template
     )
   
+  # Build the processing pipeline:
+    # Step 1: Format the prompt with inputs
+    # Step 2: Send it to the structured LLM
     chain = prompt | structured_llm
     
     try:
+        # Run the chain and get a structured response
         response = chain.invoke({"text": text, "url": url})
         return response
     except Exception as e:
+        # Log the error for debugging
         print(f"LLM Error: {e}")
+        # Re-raise so the caller knows something went wrong
         raise e
