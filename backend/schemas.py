@@ -2,6 +2,7 @@ from pydantic import BaseModel
 from typing import List, Dict
 
 class QuizQuestion(BaseModel):
+    url:str
     question: str
     options: List[str]
     answer: str

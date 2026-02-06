@@ -1,0 +1,8 @@
+TESTED WIKIPEDIA URLS
+1. Artificial Intelligence
+   URL: https://en.wikipedia.org/wiki/Artificial_intelligence
+
+2. API
+   URL: https://en.wikipedia.org/wiki/API
+
+   

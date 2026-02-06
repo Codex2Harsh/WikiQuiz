@@ -1,0 +1,163 @@
+AI Response Data: 
+Object
+key_entities
+: 
+Organizations/Locations
+: 
+Array(8)
+0
+: 
+"EDSAC"
+1
+: 
+"AFIPS"
+2
+: 
+"UC Irvine"
+3
+: 
+"Microsoft"
+4
+: 
+"Lotus Development"
+5
+: 
+"Ashton-Tate"
+6
+: 
+"Linux"
+7
+: 
+"Berkeley Software Distribution"
+length
+: 
+8
+[[Prototype]]
+: 
+Array(0)
+People
+: 
+Array(10)
+0
+: 
+"Maurice Wilkes"
+1
+: 
+"David Wheeler"
+2
+: 
+"Joshua Bloch"
+3
+: 
+"C. J. Date"
+4
+: 
+"Carl Malamud"
+5
+: 
+"Roy Fielding"
+6
+: 
+"Tim Berners-Lee"
+7
+: 
+"Richard A. Shaffer"
+8
+: 
+"Ed Esber"
+9
+: 
+"Bill Gates"
+length
+: 
+10
+[[Prototype]]
+: 
+Array(0)
+[[Prototype]]
+: 
+Object
+quiz
+: 
+Array(5)
+0
+: 
+{url: 'https://en.wikipedia.org/wiki/API', question: 'What is the primary function of an Application Programming Interface (API)?', options: Array(4), answer: 'To connect computers or computer programs to each other.', difficulty: 'Easy', …}
+1
+: 
+{url: 'https://en.wikipedia.org/wiki/API', question: 'One primary purpose of an API is to hide internal …nly useful parts. This concept is referred to as:', options: Array(4), answer: 'Information Hiding/Abstraction.', difficulty: 'Medium', …}
+2
+: 
+{url: 'https://en.wikipedia.org/wiki/API', question: "Which early computer scientists are credited with …d a 'library catalog' for the EDSAC in the 1940s?", options: Array(4), answer: 'Maurice Wilkes and David Wheeler.', difficulty: 'Hard', …}
+3
+: 
+{url: 'https://en.wikipedia.org/wiki/API', question: 'What is the key difference between an Application … (API) and an Application Binary Interface (ABI)?', options: Array(4), answer: 'API is source code based, while ABI is binary based.', difficulty: 'Medium', …}
+4
+: 
+{url: 'https://en.wikipedia.org/wiki/API', question: 'In the context of Web APIs, the recent trend (Web …ervices and SOA toward which architectural style?', options: Array(4), answer: 'Representational State Transfer (REST)', difficulty: 'Hard', …}
+length
+: 
+5
+[[Prototype]]
+: 
+Array(0)
+related_topics
+: 
+Array(3)
+0
+: 
+"Web service"
+1
+: 
+"Software library"
+2
+: 
+"Inversion of control"
+length
+: 
+3
+[[Prototype]]
+: 
+Array(0)
+sections
+: 
+Array(8)
+0
+: 
+"Definition and Purpose"
+1
+: 
+"API Specification and Implementation"
+2
+: 
+"API vs. User Interface"
+3
+: 
+"Historical Origin and Evolution"
+4
+: 
+"Types of APIs (Web, Language, OS)"
+5
+: 
+"API vs. Library Implementation"
+6
+: 
+"API vs. Application Binary Interface (ABI)"
+7
+: 
+"Remote and Web APIs"
+length
+: 
+8
+[[Prototype]]
+: 
+Array(0)
+summary
+: 
+"An Application Programming Interface (API) is a software interface that allows communication and connection between different computer programs or systems, contrasting with a user interface which connects a computer to a person. APIs serve to abstract and hide the internal complexities of a system, exposing only necessary tools and services, and are fundamental for modern software development, ranging from web services to operating systems and hardware."
+title
+: 
+"Application programming interface (API)"
+url
+: 
+"https://en.wikipedia.org/wiki/API"
