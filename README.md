@@ -1,7 +1,7 @@
 # 🧠 WikiQuiz App
 
 A full-stack application that automatically generates interactive quizzes from any Wikipedia article using AI.
-[🚀 **View Live App**](https://wikiquiz-frontend.onrender.com)
+
 
 ## 🛠️ Tech Stack
 
